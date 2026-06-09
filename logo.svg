@@ -1,0 +1,16 @@
+<svg width="420" height="120" viewBox="0 0 420 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Drevia Domy Szkieletowe">
+  <!-- Gable / timber-frame mark -->
+  <g fill="none" stroke="#1A1916" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- roof apex -->
+    <path d="M18 64 L52 22 L86 64"/>
+    <!-- frame studs -->
+    <line x1="33" y1="64" x2="33" y2="46" stroke="#B07A4A"/>
+    <line x1="52" y1="64" x2="52" y2="38" stroke="#B07A4A"/>
+    <line x1="71" y1="64" x2="71" y2="46" stroke="#B07A4A"/>
+    <!-- base sill -->
+    <line x1="14" y1="64" x2="90" y2="64"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="108" y="58" font-family="'Plus Jakarta Sans','Segoe UI',sans-serif" font-size="44" font-weight="700" letter-spacing="2" fill="#1A1916">DREVIA</text>
+  <text x="110" y="84" font-family="'Inter','Segoe UI',sans-serif" font-size="13" font-weight="500" letter-spacing="6" fill="#6E685E">DOMY SZKIELETOWE</text>
+</svg>
