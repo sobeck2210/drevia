@@ -233,6 +233,12 @@ section { padding: clamp(64px, 9vw, 120px) 0; }
 /* ---------- Case study ---------- */
 .case { display: grid; grid-template-columns: 1.1fr .9fr; gap: clamp(28px,4vw,56px); align-items: center; }
 .case .visual { aspect-ratio: 4/3; border-radius: var(--r-lg); }
+.case .visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 .case-specs { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--line);
   border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; margin-top: 26px; }
 .case-specs div { background: var(--paper); padding: 18px 20px; }
