@@ -216,6 +216,8 @@ section { padding: clamp(64px, 9vw, 120px) 0; }
 .filters button.active, .filters button:hover { background: var(--ink); color: var(--paper); border-color: var(--ink); }
 .gallery { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; }
 .gallery .item { border-radius: var(--r); overflow: hidden; aspect-ratio: 4/3; position: relative; cursor: pointer; }
+/* DOPISZ TĘ REGUŁĘ: */
+.gallery .item img {  width: 100%; height: 100%;object-fit: cover;display: block;}
 .gallery .item .meta {
   position: absolute; inset: auto 0 0 0; padding: 22px 18px 16px;
   background: linear-gradient(to top, rgba(26,25,22,.78), transparent);
@@ -225,6 +227,8 @@ section { padding: clamp(64px, 9vw, 120px) 0; }
 .gallery .item .meta b { font-family: var(--f-display); display: block; font-size: 1.02rem; }
 .gallery .item .meta span { font-size: .82rem; opacity: .82; }
 .gallery .item.hide { display: none; }
+
+
 
 /* ---------- Case study ---------- */
 .case { display: grid; grid-template-columns: 1.1fr .9fr; gap: clamp(28px,4vw,56px); align-items: center; }
