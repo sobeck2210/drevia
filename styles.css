@@ -227,7 +227,11 @@ section { padding: clamp(64px, 9vw, 120px) 0; }
 .gallery .item .meta b { font-family: var(--f-display); display: block; font-size: 1.02rem; }
 .gallery .item .meta span { font-size: .82rem; opacity: .82; }
 .gallery .item.hide { display: none; }
-
+.gallery .item::after,
+.gallery .item::before {
+  content: none !important;
+  display: none !important;
+}
 
 
 /* ---------- Case study ---------- */
